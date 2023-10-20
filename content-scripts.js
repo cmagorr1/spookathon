@@ -19,7 +19,7 @@ btn.addEventListener('click',function(){
    
     sound.id       = 'audio-player';
     sound.controls = 'controls';
-    sound.src      = 'media/Blue Browne.mp3';
+    sound.src      = '';
     sound.type     = 'audio/mpeg';
     document.getElementsByTagName('body').appendChild(sound)
     // document.getElementsByTagName("p").style.cursor = "ghost.png"
