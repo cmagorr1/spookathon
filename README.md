@@ -1,0 +1,2 @@
+# spookathon
+chrome extension hackathon
