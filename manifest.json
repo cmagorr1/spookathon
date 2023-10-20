@@ -3,6 +3,17 @@
     "name": "Spookathon",
     "description": "Base Level Extension",
     "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+  },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "css": ["style.css"],
+        "js": ["content-scripts.js"]
+        
+      }],
     "action": {
       "default_popup": "index.html",
       "default_icon": "ghost.png"
